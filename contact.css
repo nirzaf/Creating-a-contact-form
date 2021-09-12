@@ -1,0 +1,92 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #B23535;
+}
+
+form {
+  width: 500px;
+  margin: 10px auto;
+  margin-top:70px;
+  padding: 15px 15px;
+  background: #000;
+  padding-bottom:55px;
+  border-radius:25px;
+}
+
+h1 {
+  margin: 6px 0 4px 16px;
+  font-size: 26px;
+  text-align: center;
+  color:#fff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 18px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 8px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #000;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.03) inset;
+  margin-bottom: 20px;
+}
+
+
+button {
+  padding: 12px 22px 12px 22px;
+  color: #FFF;
+  background-color: #B23535;
+  font-size: 24px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 30%;
+  border: 1px solid #a30000;
+  border-width: 1px 1px 3px;
+  border-style:none;
+  /*box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;*/
+
+}
+
+fieldset {
+  margin-bottom: 10px;
+  border: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color:#08a3d9;
+  font-weight:bold;
+}
+
+#clear {
+	padding: 12px 22px 12px 22px;
+  color: #000;
+  background-color: yellow;
+  font-size: 24px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 20px;
+  margin-right: 5%;
+  margin-left: 19%;
+  width: 30%;
+  border: 1px solid #a30000;
+  border-width: 1px 1px 3px;
+  border-style:none;
+	
+}
